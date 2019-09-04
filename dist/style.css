@@ -1,0 +1,67 @@
+
+.main{
+  width:100vw;
+  height:100vh;
+  background-color:white;
+  text-align:center;
+  font-family: 'Titillium Web', sans-serif;
+  
+  
+}
+.header{
+  height:50px;
+}
+.controlPanel{
+  display:grid;
+  margin:auto;
+  width:600px;
+  height:80px;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  font-size:1.3em;
+  background-color:#76D7C4;
+}
+
+.timer{
+  width:600px;
+  margin:auto;
+  height:150px;
+  background-color:#F8C471;
+}
+
+
+.footer{
+  padding-top:10px;
+  height:30px;
+  margin:auto;
+  background-color:#D6EAF8 ;
+  width:600px;
+}
+
+#session-label{
+  grid-row:1/2;
+  grid-column:2/3;
+}
+
+#timer-label{
+  height:10px;
+  font-size:1.5em;
+
+}
+
+#time-left{
+  font-size:6em;
+}
+
+button{
+  background:none;
+  outline:none;
+  border:none;
+  color:black;
+  cursor:pointer;
+  
+}
+
+#reset{
+  margin-left:15px;
+}
